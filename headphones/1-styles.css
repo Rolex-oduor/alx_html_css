@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#banner {
+  background: url(images/headphones_hero_1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+  
+  
+}
+
+.logo {
+  width: 200px;
+  position: absolute;
+  top: 4%;
+  left: 10%;
+  
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 80px;
+  list-style: none;
+  margin: 0;
+  padding-top: 50px;
+  position: absolute;
+  top: 0;
+  right: 8%;
+}
+
+.navbar ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px; 
+}
+
+     
+.banner-text h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.banner-text p {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  
+}
+
+.p {
+  margin-top: 30px;
+  max-width: 1000px;
+  line-height: 1.3;
+
+}
+
+
+.button {
+  font-size: 24px; 
+  color:rgb(255, 255, 255);
+  padding: 12px;
+  border-radius: 20px  30px;
+  cursor: pointer;
+  background-color:rgb(231, 10, 10);
+  transition:background 0.3s ease;
+  margin-top: 30px;
+}
+
+
+.button:hover {
+  background-color: #00e025;
+}
+
+
+.navbar ul a:hover{
+  color: #00e025;
+}
+
+
+
+
+.what-we-do   {
+  font-size: 20px;
+  max-width: 900px;
+text-align: center;
+margin: 0 auto;
+}
+
+
+
+#what-we-do {
+  background-color: white;
+  padding: 80px 20px;
+  min-height: 30dvh;
+}
+
+#what-we-do h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.what-we-do {
+  font-size: 20px;
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Center the icons */
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  padding: 40px 0;
+}
+
+.icons div {
+  align-content: space-around;
+  width:200px; px;
+}
+
+.icons div i {
+
+  font-size: 80px;
+  color: #ff4a4a;
+}
+
+.icons div p {
+  margin-top: 10px;
+  font-size: 25px;
+  min-height: 50dvh;
+  
+}
+  
+
+.Results {
+  height: 100vh;
+  background: url(images/headphones_hero_2.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+}
+
+.results-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.results-content h2 {
+  font-size: 40px;
+  color: aliceblue;
+  margin-bottom: 80px; /* Push the paragraph down */
+  text-align: center;
+}
+
+.results-content p {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  color: aliceblue;
+  line-height: 1.6;
+  margin-top: 100px; /* Adjust this to control how low it appears */
+  text-align: center;
+}
+.Results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pentagone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+gap: 100px;
+margin-top: 50px;
+flex-wrap:wrap;
+}
+
+
+.Contact {
+padding: 60px 20px;
+background-color: white;
+text-align: center;
+font-size: 25px;
+}
+.Contact-content{
+margin: auto;
+text-align: center;
+max-width: 600px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input,text area{
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid#ccc ;
+  border-radius: 5px;
+}
+
+
+ button{
+  font-size: 24px; 
+  color:rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 20px  30px;
+  cursor: pointer;
+  background-color:rgb(231, 10, 10);
+  transition:background 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #00e025;
+}
+
+
+.footer  {
+  width: 100%;
+font-size: 20px;
+text-align:center ;
+color:rgba(255, 255, 255, 0.432);
+height: 40vh;
+background-color: rgba(6, 6, 48, 0.945);
+ 
+
+  }
+
+.footer-logo {
+display: flex;
+align-content: flex-start;
+}
+
+.icon-footer i {
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+/* HAMBURGER BAR */
+
+/* .navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#111;
+  padding: 15px 20px;
+  position: relative;
+} */
+
+
+/* .navbar. nav-links{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+
+.navbar .nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  color: aliceblue;
+  cursor: pointer;
+
+}
+
+
+@media (max-width:768px)
+.nav links
+  
+}
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+} */
